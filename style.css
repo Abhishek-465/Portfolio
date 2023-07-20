@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(to top, rgb(148, 95, 197) 0%,rgb(61, 12, 51) 100%);
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    font-size: 1.05rem;
+    color: plum;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+}
+
+.firstsection {
+    display: flex;
+    margin: 110px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+
+.rightSection img {
+    margin: 40px 0;
+    width: 82%;
+    height: 333px;
+    border: 6px solid white;
+    border-radius: 235px;
+    
+}
+.rightSection img:hover {
+    border-color: rgb(148, 95, 197);
+    transform: scale(1.02);
+    transition: transform linear 500ms;
+    background-image:linear-gradient(to top, rgb(0, 0, 0) 0%,rgb(54, 70, 73) 100%);
+}
+
+.purple {
+    color: rgb(148, 95, 197);
+}
+.grey{
+    color:grey
+}
+#element{
+    color: rgb(148, 95, 197);
+}
+.secondsec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    background-color: rgb(148, 95, 197);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondsec h1{
+    font-size: 1.9rem;
+}
+.secondsec .box{
+    background-color: azure;
+    width:80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.secondsec .vertical{
+    height: 93px;
+    width:1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top:-32px;
+    left:-9px;
+}
+.verticle-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 13px;
+
+}
+.vertical-desc{
+    position: relative;
+    top:86px;
+    color: grey;
+    font-size: 9px;
+    width: 150px;
+
+}
+footer{
+   background: linear-gradient(to top, rgb(148, 95, 197) 0%,rgb(61, 12, 51) 100%);
+   color:white;
+
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer1{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+footer ul li a :hover{
+    color:rgb(114, 51, 114);
+}
+.footer>div{
+    width: 200px;
+}
+.footer1>div{
+    width: 200px;
+}
+footer .text-center
+{
+    text-align: center;
+    padding:12px 0;
+    color:rgb(189, 181, 181);
+}
+
+.leftSection .buttons{
+    padding: 30px 0;
+}
+.leftSection .btn{
+    padding: 10px;
+    border:2px solid white;
+    background: rgb(148, 95, 197);
+    color:white;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 4px;
+
+}
+.rightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-body-emphasis1 {
+    --bs-text-opacity: 1;
+    color:rgb(148, 95, 197) ;
+}
+.logos{
+    display: flex;
+}
+.item img{
+    width: 30px;
+    height: 30px;
+    margin-right: 23px;
+}
+.cardss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 85vh;
+}
+.card{
+    margin: 100px 35px;
+    
+    
+}
+.card-body1 {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color:rgb(148, 95, 197);
+    background-color: rgb(22, 18, 13);
+  }
+#featured-3{
+    color: blanchedalmond;
+    background-color: rgba(62, 9, 105, 0.247);
+    margin: 80px 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
