@@ -290,7 +290,11 @@
       
 }
 @media(max-width:492px){
-    nav{
+   body{
+     overflow:hidden;
+   } 
+  
+  nav{
         font-size:7px;
     }
     nav ul li a:hover {
