@@ -290,9 +290,7 @@
       
 }
 @media(max-width:492px){
-   body{
-     overflow-x:hidden;
-   } 
+   
   
   nav{
         font-size:7px;
