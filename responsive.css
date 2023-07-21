@@ -130,6 +130,7 @@
       .secondsec{
         visibility: hidden;
         height: 15vh;
+        overflow-x: hidden;
       }
       .cardss {
         height: 60vh;
