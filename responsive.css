@@ -291,7 +291,7 @@
 }
 @media(max-width:492px){
    body{
-     overflow:hidden;
+     overflow-x:hidden;
    } 
   
   nav{
