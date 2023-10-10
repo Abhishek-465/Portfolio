@@ -1,134 +1,347 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <title>Developer-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="left">Abhishek's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li><a href="about.html"><li>About</a></li>
-                    <li><a href="services.html"><li>Services</a></li>
-                    <li><a href="projects.html"><li>Projects</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#sent?compose=new"><li>Contact me</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg sticky-top" data-bs-theme="dark">
+      
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">Abhishek's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-6">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-6">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item mx-6">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item mx-6">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <main>
-        <section class="firstsection">
-            <div class="leftSection">
-                Hi, I am <span class="purple">Abhishek</span>
-                <div> and I am interested in </div>
-                <span id="element"></span>
-                <div class="buttons">
-                    <button class="btn" onclick="window.location.href='Abhishek_s_Resume.pdf'" target="_blank">Download CV</button>
-                    <button class="btn" onclick="window.location.href='https://github.com/Abhishek-465'" target="_blank">Visit Github</button>
-                </div>
-            </div>
-            <div class="rightSection">
-                <img src="Back.png" alt="" srcset="">
-            </div>
-        </section>
-        <hr>
-        <section class="secondsec">
-            <span class="grey">What i have done so far</span>
-            <h1>Experience</h1>
-            <div class="box">
-                <div class="vertical">
-                    <img class="image-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Jadavpur_University_Logo.svg/1200px-Jadavpur_University_Logo.svg.png" alt="" srcset="">
-                    <div class="verticle-title">JU EE (B.E degree) (2022-2026)</div>
-                    <div class="vertical-desc">
-                        Started studying Electrical engineering from Jadavpur University.</div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Jadavpur_University_Logo.svg/1200px-Jadavpur_University_Logo.svg.png" alt="" srcset="">
-                    <div class="verticle-title">JUSC member (2022-2026)</div>
-                    <div class="vertical-desc">
-                  Became a member of the prestigious Jadavpur University Science club.</div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="https://www.datamation.com/wp-content/uploads/2021/08/Google-Cloud-Logo.png" alt="" srcset="">
-                    <div class="verticle-title">Google Cloud Kolkata (2023-2026)</div>
-                    <div class="vertical-desc">
-                        Beacme a member of Google Cloud Developers group of Kolkata.</div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="https://mms.businesswire.com/media/20230322005274/en/761650/23/postman-logo-vert-2018.jpg" alt="" srcset="">
-                    <div class="verticle-title">Postman API Fundamentals(2023)</div>
-                    <div class="vertical-desc">
-                        Became The Postman API Fundamentals Student Expert.</div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="https://cdn-images-1.medium.com/max/1200/1*ZfYWXN0zA6TqQQ7wGNJUOg.jpeg" alt="" srcset="">
-                    <div class="verticle-title">Girlscript Summer of code(2023)</div>
-                    <div class="vertical-desc">
-                        Became a contributer in Girlscript Summer of code,2023..</div>
-                </div>
-                
-            </div>
 
-        </section>
-    </main>
+  
+  <!--her0 -->
+  <section class="firstsection white ">
+    <div class="leftSection ">
+        Hi, I am <span class="glow">Abhishek</span>
+        <div> and I am interested in </div>
+        <span id="element"></span>
+        <div class="buttons animate__animated animate__fadeIn">
+            <button class="btn" onclick="window.location.href='Abhishek_s_Resume.pdf'" target="_blank"><img  class="btnimg" src="https://static.vecteezy.com/system/resources/thumbnails/012/658/285/small/3d-cv-or-resume-illustration-side-view-free-png.png" alt="" srcset=""></button>
+            <button class="btn" onclick="window.location.href='https://github.com/Abhishek-465'" target="_blank"><img class="btnimg1" src="https://cdn3d.iconscout.com/3d/free/thumb/free-github-2-5645861-4695719.png" alt="" srcset=""></button>
+            <button class="btn" onclick="window.location.href='https://www.linkedin.com/in/abhishek-bhattacharjee-a91570256'" target="_blank"><img class="btnimg" src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-z5dvl47c.png" alt="" srcset=""></button>
+        </div>
+    </div>
+    <div class="heroimg animate__animated animate__fadeIn ">
+        <img  class="imghero" src="profile.jpg" alt="" srcset="">
+      </div>
 
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Abhishek's Developer's Portfolio</h3>
+</section>
+
+<!--about -->
+<section id="about">
+  <h2 class="headings animate__animated animate__slideInLeft">About me</h2>
+  <div class="container">
+    
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse   justify-content-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        </div>
+        <div class="col-lg-6 ">
+          <div >
+          <h3 class="display-5 fw-bold text-body-emphasis1 lh-1 mb-4 center">Learning and applying new technology is my fundamental principle.</h3>
+          <p class="lead ">I am a Second year student of Electrical Engineering,Jadavpur University.I have interests in Electrical Technology , Front-end Web development , Machine Learning , DSA , and Problem solving.</p>
+          <p class="lead "><b>Languages</b>:</p>
+        </div>
+          <div class="logos">
+              <div class="item">
+                  <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" srcset="">
+              </div>
+              <div class="item">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="" srcset="">
+              </div>
+              <div class="item">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png" alt="" srcset="">
+              </div>
+              <div class="item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKmekjwemZLxLrGaTr9KEOPZltA76q-suIVJMbVVEk&s" alt="" srcset="">
+              </div>
+              <div class="item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQHSxmAMQGuzs_MrNhJXdok6qLadS1B8GEUZyKcNI&s" alt="" srcset="">
+              </div>
+              <div class="item">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" alt="" srcset="">
+              </div>
+          </div>
+          <div class="logos">
+            <div class="item">
+                <img src="https://icons-for-free.com/iconfiles/png/512/logo+react+react+js+icon-1320184811840217251.png" alt="" srcset="">
             </div>
-            <div class="footer-second">
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li><a href="about.html"><li>About</a></li>
-                    <li><a href="services.html"><li>Services</a></li>
-                    <li><a href="projects.html"><li>Projects</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#sent?compose=new"><li>Contact me</a></li> 
-                </ul>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="" srcset="">
             </div>
-            <div class="footer-third">
-                <ul>
-                    <li> <a href="https://www.linkedin.com/in/abhishek-bhattacharjee-a91570256">Linkedin</a></li>
-                    <li><a href="https://www.facebook.com/abhishek.bhattacharjee.370515?mibextid=ZbWKwL"><li>Facebook</a></li>
-                    <li><a href="https://instagram.com/abhishekpapan?igshid=OTJhZDVkZWE="><li>Instagram</a></li>
-                    <li><a href="https://twitter.com/Abhishek_2003_1"><li>Twitter</a></li>
-                    <li><a href="https://github.com/Abhishek-465"><li>Github</a></li> 
-                </ul>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfBRjCTElbteFmaSjIS1rsdutuh4YSjDszGRHjP1U&s" alt="" srcset="">
             </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li><a href="/"><li></a>Contact options</li> 
-                    <li> <a href=""></a>abhishekbhattacharjee12345@gmail.com</li>
-                    <li><a href="/"><li>abhishekbhattacharjee465@gmail.com</a></li>
-                    <li><a href="/"><li>8583933961</a></li>
-                    <li><a href="/"><li>7044221432</a></li>
-                </ul>
+            <div class="item">
+                <img src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="https://cdn.dribbble.com/users/528264/screenshots/3140440/media/5f34fd1aa2ebfaf2cd548bafeb021c8f.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1200px-Socket-io.svg.png" alt="" srcset="">
             </div>
         </div>
-        <div class="text-center">
-            Copyright &copy; Abhishek-Bhattacharjee
-        </div>
-        </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Electrical Tech', 'Development','AI-ML','Hacking','DSA'],
-          typeSpeed: 40,
-        });
-      </script>
 
+        <div class="logos">
+          <div class="item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="" srcset="">
+          </div>
+          <div class="item">
+              <img src="https://files.raycast.com/sjxs3pxsc6k63ju0fzv8l3cu4v90" alt="" srcset="">
+          </div>
+          <div class="item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png" alt="" srcset="">
+          </div>
+          <div class="item">
+              <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="" srcset="">
+          </div>
+          <div class="item">
+              <img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="" srcset="">
+          </div>
+          <div class="item">
+              <img src="https://camo.githubusercontent.com/df61f4b2e2cc40922b5290ed53040485ab7167836872ce1aa88d88462e9816ce/68747470733a2f2f7261696c7761792e6170702f6272616e642f6c6f676f2d6c696768742e706e67" alt="" srcset="">
+          </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Services-->
+
+<section id="services">
+  <h2 class="headings">My Services</h2> 
+  <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wcs.uwo.ca/upload/CE0060b.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.mindinventory.com/img/hire/technology-stack-img/aiml.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/209/1020/desktop-wallpaper-data-analyst-data-structure.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</section> 
+<!--experience -->
+<section id="experience">
+  <h2 class="headings animate__animated animate__slideInLeft">Experience</h2>
+  <h4 id="element1" class="text-center">What i have done so far</h4>
+  <div class="folder">
+    <div class="file">
+        <img src="https://styles.redditmedia.com/t5_3gryx/styles/communityIcon_s4tf6p44hmlb1.png" alt="" srcset="">
+        <div class="write">
+            <h3 class="dark"> A Web Contributor</h3>
+            <p class="dark">Hacktoberfest 2023</p>
+        </div>
+        
+    </div>
+
+    <div class="file">
+        <img src="https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777114980?e=2147483647&v=beta&t=wNRoer2fWuvuMiWrMShi1XZ1fZ1XlpH25fUW1rUTuPA" alt="" srcset="">
+        <div class="write">
+            <h3 class="dark">Web Dev Intern</h3>
+            <p class="dark">Codsoft</p>
+        </div>
+        
+    </div>
+
+    <div class="file">
+        <img src="https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=2147483647&v=beta&t=JjmObXiOOQwgANdMb1DX6LQtRg_qkE3Uo-MEakBT9uU" alt="" srcset="">
+        <div class="write">
+            <h3 class="dark">A Web Contributor</h3>
+            <p class="dark">GSSOC 2023</p>
+        </div>
+    </div>
+</div>
+</section>
+<!--projects-->
+<section id="Projects">
+  <h2 class="headings animate__animated animate__slideInLeft">Projects</h2>
+  <div class="container">
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyncMaLCc7ush4ZRZk1NrsyqMHobwAlUILiA&usqp=CAU" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Meme-generator</p>
+          </summary>
+            <p><a href="https://64ddc89e2260474ccab4aca6--timely-jelly-6ea1a7.netlify.app/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://www.lifewire.com/thmb/yfsmiwd4ogXeC-ro4XPQXwLFbIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/10-ways-to-use-the-iphone-weather-app-52164851-26d63cbc41c8408aa6b03ad43533c621.jpg" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Weather-app</p>
+          </summary>
+            <p><a href="https://abhishek-465.github.io/The_Weather_App/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="coupearn.png" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Coup-earn</p>
+          </summary>
+            <p><a href="https://coup-earn.netlify.app/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://www.opensourceforu.com/wp-content/uploads/2017/01/Calculator.jpg" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Calculator</p>
+          </summary>
+            <p><a href="https://abhishek-465.github.io/The_Calculator/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://getbubududu.com/wp-content/uploads/2023/09/Buy-Bubu-Dudu-Plushies-1.png" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Bubu-Dudu-app</p>
+          </summary>
+            <p><a href="https://add-to-cart-bubu-dudu.netlify.app/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Netflix-clone</p>
+          </summary>
+            <p><a href="https://shimmering-starlight-73569e.netlify.app/">Visit</a></p>
+        </details>
+      
+    </div>
+    <div class="card">
+      <div class="imgcover">
+        <img src="https://www.thepurplepumpkinblog.co.uk/wp-content/uploads/2022/03/My-Travel-Journal-Free-Printable.jpg.webp" alt="" srcset="">
+      </div>
+        <details>
+          <summary>
+            <p>Travel-Journal</p>
+          </summary>
+            <p><a href="https://64ddc56d633296506a9ed9c4--cosmic-lollipop-3cc13a.netlify.app/">Visit</a></p>
+        </details>
+      
+    </div>
+  </div>
+</section>
+
+<!--contact -->
+<section id="contact">
+  <h2 class="headings animate__animated animate__slideInLeft">Contact me</h2>
+  <div class="concov">
+  <img  class="conlogo" src="https://img.freepik.com/premium-photo/blue-circle-with-man-s-head-circle-with-white-background_745528-3499.jpg" alt="" srcset="">
+</div>
+  
+    <div class="logos1">
+      <div class="small">
+          <a href="https://www.facebook.com/abhishek.bhattacharjee.370515?mibextid=ZbWKwL"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" width="44px" height="40px"></a></div>
+          <div class="small">
+          <a href="https://twitter.com/Abhishek_2003_1"><img src="https://seeklogo.com/images/T/twitter-x-logo-0339F999CF-seeklogo.com.png?v=638264860180000000" width="40px" height="40px"></a>
+          </div>
+          <div class="small">
+          <a href="https://instagram.com/abhishekpapan?igshid=OTJhZDVkZWE="><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" width="40px" height="40px"></a></div>
+          <div class="small">
+              <a href="https://www.linkedin.com/in/abhishek-bhattacharjee-a91570256"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-z5dvl47c.png" width="40px" height="40px"></a></div>
+</div>
+<h4 class="white text-center my-5">abhi.papan.b2003@gmail.com</h4>
+<div class="footer">
+  <h4 class="white1 text-center">Made with </h4>
+</div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+      var typed = new Typed('#element', {
+        strings: ['Electrical Tech', 'Development','AI-ML','Hacking','DSA','Problem Solving'],
+        typeSpeed: 40,
+      });
+    </script>
 </body>
-
 </html>
