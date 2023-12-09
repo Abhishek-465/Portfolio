@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="marquee.css">
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -47,7 +48,7 @@
   <section class="firstsection white ">
     <div class="leftSection ">
         Hi, I am <span class="glow">Abhishek</span>
-        <div> and I am interested in </div>
+        <div id="vis"> and I am interested in </div>
         <span id="element"></span>
         <div class="buttons animate__animated animate__fadeIn">
             <button class="btn" onclick="window.location.href='Abhishek_s_Resume.pdf'" target="_blank"><img  class="btnimg" src="https://static.vecteezy.com/system/resources/thumbnails/012/658/285/small/3d-cv-or-resume-illustration-side-view-free-png.png" alt="" srcset=""></button>
@@ -170,7 +171,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://e1.pxfuel.com/desktop-wallpaper/209/1020/desktop-wallpaper-data-analyst-data-structure.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.freecodecamp.org/news/content/images/2020/09/image-21.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Problem solving</h5>
               <p>In the world of programming, data structures serve as the foundation upon which complex data handling tasks are built and executed</p>
@@ -193,32 +194,34 @@
   <h2 class="headings animate__animated animate__slideInLeft">Experience</h2>
   <h4 id="element1" class="text-center">What i have done so far</h4>
   <div class="folder">
-    <div class="file">
-        <img src="https://styles.redditmedia.com/t5_3gryx/styles/communityIcon_s4tf6p44hmlb1.png" alt="" srcset="">
-        <div class="write">
-            <h3 class="dark">Contributor</h3>
-            <p class="dark">Hacktoberfest 2023</p>
-        </div>
-        
+    <div class="card bg-dark bg-gradient text-white text-center" style="width: 38rem;">
+      <img src="https://rajivharlalka.tech/kwoc-2021/image.png"  class="card-img-top" style="height: 135px;" alt="" srcset="">
+      <div class="card-body ">
+        <p class="card-text">Contributer</p>
+      </div>
     </div>
-
-    <div class="file">
-        <img src="https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777114980?e=2147483647&v=beta&t=wNRoer2fWuvuMiWrMShi1XZ1fZ1XlpH25fUW1rUTuPA" alt="" srcset="">
-        <div class="write">
-            <h3 class="dark">Web Dev Intern</h3>
-            <p class="dark">Codsoft</p>
-        </div>
-        
+    <div class="card bg-dark bg-gradient text-white text-center" style="width:38rem;">
+      <img src="https://styles.redditmedia.com/t5_3gryx/styles/communityIcon_s4tf6p44hmlb1.png" class="card-img-top" alt="...">
+      <div class="card-body bg-dark.bg-gradient">
+        <p class="card-text">Contributor</p>
+      </div>
     </div>
-
-    <div class="file">
-        <img src="https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=2147483647&v=beta&t=JjmObXiOOQwgANdMb1DX6LQtRg_qkE3Uo-MEakBT9uU" alt="" srcset="">
-        <div class="write">
-            <h3 class="dark">Contributor</h3>
-            <p class="dark">GSSOC 2023</p>
-        </div>
+    <div class="card bg-dark bg-gradient text-white text-center" style="width: 38rem;">
+      <img src="https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777114980?e=2147483647&v=beta&t=wNRoer2fWuvuMiWrMShi1XZ1fZ1XlpH25fUW1rUTuPA" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Web Intern</p>
+      </div>
+    </div>
+    <div class="card bg-dark bg-gradient text-white text-center" style="width: 38rem;">
+      <img src="https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=2147483647&v=beta&t=JjmObXiOOQwgANdMb1DX6LQtRg_qkE3Uo-MEakBT9uU" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text">Contributer</p>
+      </div>
     </div>
 </div>
+
+
+<!--Special marquee-->
 </section>
 <!--projects-->
 <section id="Projects">
@@ -342,6 +345,14 @@
         strings: ['Electrical Tech', 'Development','AI-ML','Hacking','DSA','Problem Solving'],
         typeSpeed: 40,
       });
+      const sphere = document.getElementById('sphere');
+const rows = []
+
+for(i = 0; i < 180; i += 9) {
+  rows.push(`<div class="line" style="transform: rotateY(${i}deg);"></div>`)
+}
+
+sphere.innerHTML = rows.join("");
     </script>
 </body>
 </html>

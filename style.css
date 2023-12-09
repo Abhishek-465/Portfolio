@@ -136,28 +136,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 717px;
+    flex-direction:row;
+    height: 417px;
+    flex-wrap: wrap;
 }
-.file{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(62, 67, 70);
-    color: white;
-    width: 486px;
-    height: 143px;
-    border-radius: 30px;
-    margin: 30px 0px;
-    border: 2px solid white;
-} 
-.file img{
-    height: 90px;
-    width: 100px;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-right: 40px;
-}
+
 .write{
     background-color: rgb(62, 67, 70);
 }

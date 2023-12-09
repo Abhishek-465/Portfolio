@@ -124,6 +124,15 @@
     .firstsection{
         flex-direction: column-reverse;
     }
+    #element{
+      display: none;
+    }
+    #vis{
+      display: none;
+    }
+    .typed-cursor{
+      display: none;
+    }
     .leftSection{
         display: flex;
         justify-content: center;
