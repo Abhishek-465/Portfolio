@@ -243,6 +243,7 @@
   .firstsection>div{
     width: 50%;
   }
+  
 }
 
 @media(max-width:390px){
@@ -252,6 +253,9 @@
     }
       .firstsection > div{
         width: 55%;
+      }
+      .folder{
+        height: 945px;
       }
 
 .imghero {

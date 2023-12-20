@@ -1,22 +1,33 @@
+:root {
+    --background-color: #0b0211;
+    --text-color: #ffffff;
+    --txt:rgb(93, 167, 216);
+  }
+
 *{
     margin: 0;
     padding: 0;
+    color: var(--text-color);
 
 
 }
 body{
     overflow-x: hidden;
 }
+h3{
+    color: var(--text-color);
+}
 
 .white{
     color:white;
-    background-color: black;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 .glow{
     color:rgb(177, 68, 204);
 }
 #element{
-    color:rgb(93, 167, 216);
+    color:var(--txt);
 }
 .left {
     font-size: 1.5rem;
@@ -59,9 +70,11 @@ body{
 }
 .leftSection .buttons{
     padding: 30px 0;
+    border: none;
 }
 .buttons{
     display: flex;
+    margin-left: -30px;
 }
 .btnimg{
     height: 50px;
@@ -89,18 +102,18 @@ body{
 }
 .headings{
     padding: 80px 0px;
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
 }
 #services{
-    background-color: black;
+    background-color: var(--background-color);
 }
 .headings:hover{
     color:rgb(113, 113, 204);
     
 }
 #about{
-    background-color: black;
+    background-color: var(--background-color);
 }
 .logos{
     display: flex;
@@ -119,18 +132,21 @@ body{
 }
 .text-body-emphasis1 {
     --bs-text-opacity: 1;
-    color:rgb(223, 217, 228) ;
+    color: var(--text-color);
 }
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
-    color: rgb(255, 255, 255);
+    color: var(--text-color)
   }
 #experience{
-    background-color: black;
+    background-color: var(--background-color);
 }
 #element1{
     color:rgb(134, 118, 148);
+}
+p{
+    color: #000000;
 }
 .folder{
     display: flex;
@@ -149,7 +165,7 @@ body{
     background-color: rgb(62, 67, 70);
 }
 #Projects{
-    background-color: black;
+    background-color: var(--background-color);
 }
 .container{
     display: flex;
@@ -165,6 +181,7 @@ body{
     background-color: black;
     border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(45, 45, 45);
 }
 .imgcover{
     display: flex;
@@ -183,9 +200,13 @@ details{
     text-align: center;
     z-index: 2;
     margin: 10px 0px;
-}
+    }
+summary {
+    cursor: pointer;
+    color: black;
+  }
 #contact{
-    background-color: black;
+    background-color: var(--background-color);
     overflow-y: hidden;
 }
 .logos1{
@@ -221,3 +242,9 @@ details{
     justify-content: center;
     margin-bottom: 60px;
 }
+.dark-mode {
+
+    --background-color: #cad2d4;
+    --text-color: #0a0a0a;
+    --txt:rgb(11, 85, 134);
+  }
