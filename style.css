@@ -1,7 +1,8 @@
 :root {
-    --background-color: #0b0211;
-    --text-color: #ffffff;
-    --txt:rgb(93, 167, 216);
+    --background-color: #cad2d4;
+    --text-color: #0a0a0a;
+    --txt:rgb(11, 85, 134);
+    
   }
 
 *{
@@ -243,8 +244,7 @@ summary {
     margin-bottom: 60px;
 }
 .dark-mode {
-
-    --background-color: #cad2d4;
-    --text-color: #0a0a0a;
-    --txt:rgb(11, 85, 134);
+    --background-color: #0b0211;
+    --text-color: #ffffff;
+    --txt:rgb(93, 167, 216);
   }
