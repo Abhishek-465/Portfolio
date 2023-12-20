@@ -159,6 +159,7 @@
       .buttons{
         justify-content: center;
       }
+
 }
 
 @media(max-width:606px){
@@ -243,6 +244,12 @@
   .firstsection>div{
     width: 50%;
   }
+  .btnimg{
+    margin-right: -15px;
+  }
+  .btnimg1{
+    margin-right: -10px;
+  }
   
 }
 
@@ -263,9 +270,6 @@
         width: 100%;
         height: 209px;
         border-radius: 235px;
-      }
-      .btnimg{
-        margin-right: 10px;
       }
     
       
