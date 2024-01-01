@@ -274,3 +274,8 @@
     
       
 }
+@media(max-width:992px){
+  .text-1{
+    text-align: center;
+  }
+}
