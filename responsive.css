@@ -233,6 +233,10 @@
         border: 1px solid white;
         border-radius: 235px;
       }
+.image{
+    height: 250px;
+    width : 100px;
+}
 
     @media(max-width:446px){
     .imghero{
