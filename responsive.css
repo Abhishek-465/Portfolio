@@ -119,6 +119,9 @@
     .leftSection{
         font-size: 1.6rem;
       }
+      #experience{
+        display: none;
+      }
 }
 @media(max-width:706px){
     .firstsection{
@@ -261,9 +264,7 @@
       .firstsection > div{
         width: 55%;
       }
-      .folder{
-        height: 945px;
-      }
+
 
 .imghero {
         margin: 50px 0;
