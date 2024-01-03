@@ -57,10 +57,10 @@ h3{
 }
 .imghero{
     margin: 40px 0;
-    width: 82%;
+    width: 320px;
     height: 320px;
     border: 3px solid white;
-    border-radius: 235px;
+    border-radius: 50%;
     
 }
 .imghero:hover {
