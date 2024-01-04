@@ -45,7 +45,6 @@ h3{
 }
 
 .firstsection>div {
-    width: 30%;
 }
 
 .leftSection {
@@ -53,14 +52,13 @@ h3{
     margin: 80px 0;
 }
 
-.heroimg{
-}
+
 .imghero{
     margin: 40px 0;
-    width: 82%;
+    
     height: 320px;
     border: 3px solid white;
-    border-radius: 235px;
+    border-radius: 50%;
     
 }
 .imghero:hover {
@@ -142,6 +140,7 @@ h3{
   }
 #experience{
     background-color: var(--background-color);
+    height: 800px;
 }
 #element1{
     color:rgb(134, 118, 148);
