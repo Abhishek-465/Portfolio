@@ -119,10 +119,20 @@ h3{
     margin-bottom: 15px;
     
 }
+.item{
+    width:40px;
+    height: 40px;
+    background-color: #b9c1c4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
 .item img{
     width: 30px;
     height: 30px;
-    margin-right: 23px;
+
 }
 .item:hover{
     transform: scale(1.2);
@@ -140,7 +150,7 @@ h3{
   }
 #experience{
     background-color: var(--background-color);
-    height: 800px;
+    height: calc()
 }
 #element1{
     color:rgb(134, 118, 148);
@@ -248,73 +258,37 @@ summary {
     --txt:rgb(93, 167, 216);
   }
 
-  swiper-container {
-    width: 240px;
-    height: 320px;
-  }
-
-  swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-  }
-
-  swiper-slide:nth-child(1n) {
-  
-    background: linear-gradient(rgb(35, 35, 37),rgb(20, 19, 19),black,rgb(65, 46, 46));
-    
-  }
-
-  swiper-slide:nth-child(2n) {
-    background-color: rgb(0, 140, 255);
-  }
-
-  swiper-slide:nth-child(3n) {
-    background-color: rgb(10, 184, 111);
-  }
-
-  swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
-  }
-
-  swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
-  }
-
-  swiper-slide:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
-  }
-
-  swiper-slide:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
-  }
-
-  swiper-slide:nth-child(8n) {
-    background-color: rgb(0, 68, 255);
-  }
-
-  swiper-slide:nth-child(9n) {
-    background-color: rgb(218, 12, 218);
-  }
-
-  swiper-slide:nth-child(10n) {
-    background-color: rgb(54, 94, 77);
-  }
   .flex-col{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .image{
+  .file{
+  height: 160px;
+  background: rgb(121, 151, 165);
+  width: 600px;
+  display:flex;
+  justify-content: flex-start;
+  padding:10px 20px;
+  box-shadow:  10px 20px 5px rgb(37, 74, 129) inset;
+  border-radius: 20px;
+  margin:0px 10px;
+  }
+  .fileimg{
     display: flex;
     justify-content: center;
-    height: 149px;
-    border:1px solid rgb(87, 87, 32);
+  }
+  .imagefile {
+    height: 140px;
+    width: 150px;
+    border-radius: 20px;
+    border:1px solid rgb(192, 187, 187);
+  }
+  .filetext{
+    width:450px;
+    font-size: 24px;
+    color: #ffffff;
   }
   .card-txt{
     font-style:italic;
