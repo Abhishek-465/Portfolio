@@ -280,8 +280,8 @@ summary {
     justify-content: center;
   }
   .imagefile {
-    height: 140px;
-    width: 150px;
+    height: 130px;
+    width: 140px;
     border-radius: 20px;
     border:1px solid rgb(192, 187, 187);
   }
