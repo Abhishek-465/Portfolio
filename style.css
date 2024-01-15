@@ -187,7 +187,7 @@ p{
     justify-content: center;
     flex-direction: column;
     max-width: 140px;
-    margin: 23px 30px;
+    margin: 28px 30px;
     background-color: black;
     border: 1px solid black;
     border-radius: 20px;
@@ -265,15 +265,15 @@ summary {
     flex-direction: column;
   }
   .file{
-  height: 160px;
-  background: rgb(121, 151, 165);
-  width: 600px;
-  display:flex;
-  justify-content: flex-start;
-  padding:10px 20px;
-  box-shadow:  10px 20px 5px rgb(37, 74, 129) inset;
-  border-radius: 20px;
-  margin:0px 10px;
+    height: 160px;
+    background: rgb(82, 96, 102);
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    box-shadow: 10px 20px 5px rgb(42, 62, 91) inset;
+    border-radius: 20px;
+    margin: 0px 10px;
   }
   .fileimg{
     display: flex;
@@ -284,6 +284,7 @@ summary {
     width: 120px;
     border-radius: 20px;
     border:1px solid rgb(192, 187, 187);
+    margin-top:12px;
   }
   .filetext{
     width:450px;
