@@ -1,3 +1,5 @@
+/* GENERAL */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -7,7 +9,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: aliceblue;
+  background: linear-gradient(
+    aliceblue,
+    rgb(252, 222, 227),
+    rgb(252, 252, 196)
+  );
 }
 
 html {
@@ -35,8 +41,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
-  position: sticky;
+  height: 12vh;
+  box-shadow: 0px 4px rgb(221, 220, 220);
 }
 
 .nav-links {
@@ -192,6 +198,8 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  text-align: center;
+  margin-left: 4px;
 }
 
 .title {
@@ -265,6 +273,7 @@ section {
 
 #about {
   position: relative;
+  height: max-content;
 }
 
 .about-containers {
@@ -358,6 +367,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 380px;
 }
 
 .color-container {
@@ -430,4 +440,6 @@ footer {
 
 footer p {
   text-align: center;
+  margin-top: 6px;
 }
+
