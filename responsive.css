@@ -23,7 +23,9 @@
   .experience-details-container {
     margin-top: 2rem;
   }
-  #profile,
+  #profile {
+    display: block;
+  }
   .section-container {
     display: block;
   }
