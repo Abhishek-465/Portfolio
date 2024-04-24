@@ -7,17 +7,18 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <div id="loader">
-      <p style="margin-bottom: 5px">Loading</p>
-      <div class="spinner"></div>
-    </div>
-
     <nav id="desktop-nav">
-      <div class="logo">Abhishek's Portfolio</div>
+      <div class="logo animate__animated animate__bounce">
+        Abhishek's Portfolio
+      </div>
       <div>
-        <ul class="nav-links">
+        <ul class="nav-links animate__animated animate__lightSpeedInRight">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -42,14 +43,16 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
+      <div
+        class="section__pic-container animate__animated animate__slideInLeft"
+      >
         <img
           src="./assets/profile.jpg"
           alt="John Doe profile picture"
           style="border-radius: 50%"
         />
       </div>
-      <div class="section__text">
+      <div class="section__text animate__animated animate__slideInRight">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Abhishek</h1>
         <p class="section__text__p2" style="color: gray">
@@ -449,46 +452,74 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="https://imgmedia.lbb.in/media/2023/09/64f1c9cb9f12bb1452424a89_1693567435980.jpg"
+                src="./assets/recipe.jpg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Book Store</h2>
+            <h2 class="experience-sub-title project-title">Recipe App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Abhishek-465/BOOK-STORE'"
+                onclick="location.href='https://github.com/Abhishek-465/Recipe-app'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://coruscating-marshmallow-319b5d.netlify.app/'"
+                onclick="location.href='https://recipe-web-app999.netlify.app/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="https://siesta.codes/wp-content/uploads/2022/12/macigy_ilustration_picture_for_article_about_chatgpt_and_UI_7100ce80-86ca-446a-9080-58a8c94ae8f3.png"
+                src="assets/weather.jpg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Scale-GPT</h2>
+            <h2 class="experience-sub-title project-title">Weather App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Abhishek-465/Scale-GPT'"
+                onclick="location.href='https://github.com/Abhishek-465/The_Weather_App'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Abhishek-465/Scale-GPT'"
+                onclick="location.href='https://abhishek-465.github.io/The_Weather_App/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/real.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Real-Estate Marketplace
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Abhishek-465/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
               >
                 Live Demo
               </button>
@@ -514,31 +545,6 @@
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://streetfightersamurai.netlify.app/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/crypto.jpeg"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">CryptoHouse</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Abhishek-465/CryptoHouse-Project'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://jolly-speculoos-19cc36.netlify.app/'"
               >
                 Live Demo
               </button>

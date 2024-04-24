@@ -53,6 +53,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+  }
   #contact,
   footer {
     height: 40vh;
